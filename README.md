@@ -116,11 +116,11 @@ const ENDPOINT = 'http://localhost:8000/api/humidity' par const ENDPOINT = 'http
   
 17 - Enfin allez dans graphana et faite new dashboard et add new panel et sélectionner la data source que vous avez configuré plus tôt, et copiez ce code :  
 (bucket: "TP IOT")  
-  |> range(start: -1h)  
-  |> filter(fn: (r) =>  
-    r._measurement == "humidity" and  
-    r._field == "humidity"  
-  )   
+--|> range(start: -1h)  
+--|> filter(fn: (r) =>  
+----r._measurement == "humidity" and  
+----r._field == "humidity"  
+--)   
  N'oubliez pas de remplacer TP IOT par le nom de votre bucket, celui-ci est pour humidity mais si vous voulez les graphiques de température remplacer juste “humidity” par “temperature”.  
   
 https://github.com/Ullyssesess/TP-iot-Elise-Arthur/blob/main/Humidity.png  
