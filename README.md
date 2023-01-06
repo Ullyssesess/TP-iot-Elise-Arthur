@@ -20,7 +20,7 @@ Installation :
 2 - Ouvrir une console dans visual code dans le fichier middleware et faire npm init puis npm install express –save et enfin npm install express.  
 3 - Toujours dans Middleware créer un fichier “apps.js” et copier-y le code de calcul suivant:
 
-`import express from "express";  
+import express from "express";  
 const app = express()  
 const port = 3003  
 'use strict'  
@@ -82,7 +82,7 @@ app.post('/api/temperature', (req, res) => {
   })  
 app.listen(port, () => {  
   console.log(`Example app listening on port ${port}`)  
-})`  
+}) 
   
 4 - Ensuite dans le terminal du dossier Middleware télécharger TypeScript à l’aide ces deux commandes:  
 npm i -g typescript && npm i --save-dev @types/node   
