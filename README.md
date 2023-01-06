@@ -123,6 +123,7 @@ const ENDPOINT = 'http://localhost:8000/api/humidity' par const ENDPOINT = 'http
   )   
  N'oubliez pas de remplacer TP IOT par le nom de votre bucket, celui-ci est pour humidity mais si vous voulez les graphiques de température remplacer juste “humidity” par “temperature”.  
   
+https://github.com/Ullyssesess/TP-iot-Elise-Arthur/blob/main/Humidity.png  
   
 N’oubliez pas que vous pouvez régler les alertes et seuils montrés sur le graphique selon vos besoins.  
   
